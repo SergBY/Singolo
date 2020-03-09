@@ -528,3 +528,12 @@ body {
 .footer_social-media {
     padding-top: 3px;
 }
+
+::placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
