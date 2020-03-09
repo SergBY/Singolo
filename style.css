@@ -69,6 +69,7 @@ body {
     font-weight: 500;
     letter-spacing: -0.025em;
     list-style: "·     ";
+    list-style: none;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -81,6 +82,7 @@ body {
 
 .header__navigation li:hover {
     color: #f06c64;
+    cursor: pointer;  
 }
 
 
@@ -358,6 +360,7 @@ body {
     border: 1px solid #666d89;
     justify-content: center;
     margin: -1px 4px 0 0;   
+    cursor: pointer;  
 }
 
 .social-media {
